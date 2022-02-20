@@ -23,6 +23,7 @@ body {
     display: flex;
     border-radius: 0.5em;
     color: white;
+    max-width: 600px;
 }
 
 .highlitedtext {
