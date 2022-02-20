@@ -7,74 +7,87 @@
 }
 
 body {
-    margin: 2px;
     height: 100vh;
     background-color: hsl(233, 47%, 7%);
-    font-family: 'Inter',sans-serif,serif;
-    line-height: 1.6;
-}
-
-.container {
+    font-family: "Inter", sans-serif, serif;
+    font-size: 15px;
     display: flex;
-    align-items: stretch;
-    margin-top: 5rem;
-    background-color: hsl(244, 38%, 16%);
-    color: white;
-    border-radius: 5px;
-    width: 70%;
-    min-width: 700px;
-    max-width: 900px;
-    margin: 3rem auto;
-    text-align: left;
-}
-
-.inner-card {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    margin-top: 0;
-    padding-right: 3.3rem;
-    width: 50%;
 }
-
-.imagecontainer {
-    width: 50%;
+.bigcont {
+    width: 70%;
+    margin: 0 auto;
 }
-
-img {
-    height: 100%;
-    width: 100%;
-    border-top-right-radius: 0.6rem;
-    border-bottom-right-radius: 0.6rem;
-    bottom: 0;
-
-}
-
-h1 {
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
-}
-
-p {
-    font-size: 0.8rem;
+.container {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    border-radius: 0.5rem;
+    color: white;
 }
 
 .highlitedtext {
-    color: hsl(277, 64%, 61%);
+    color:  hsl(277, 64%, 61%);
+}
+
+.inner-card {
+    width: 50%;
+    padding: 2.5rem;
+}
+.imagecontainer {
+    width: 50%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.imagecontainer::before {
+    position: relative;
+}
+
+.imagecontainer::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:  hsl(277, 64%, 61%);
+    opacity: 0.4;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+p{
+    font-size: 0.6rem;
+    margin: 1rem 0;
+
 }
 
 .footer {
+    margin: 3rem 0 0 0 ;
     display: flex;
-    margin-top: 3rem;
-    width: 100%;
+    align-items: center;
     justify-content: space-between;
-    font-size: 0.5rem;
-    padding-right: 1rem;
+    font-size: 0.4rem;
+    color : hsla(0, 0%, 100%, 0.6);
 }
 
 .counter {
-    font-size: 0.9rem;
+    display:block;
     font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    color:white;
+    
 }
