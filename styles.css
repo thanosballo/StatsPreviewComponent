@@ -13,10 +13,10 @@ body {
     font-size: 15px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .bigcont {
     width: 70%;
-    margin: 0 auto;
 }
 .container {
     background-color: hsl(244, 38%, 16%);
@@ -91,3 +91,4 @@ p{
     color:white;
     
 }
+
