@@ -10,20 +10,16 @@ body {
     height: 100vh;
     background-color: hsl(233, 47%, 7%);
     font-family: "Inter", sans-serif, serif;
-    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.bigcont {
-    width: 70%;
 }
 .container {
     background-color: hsl(244, 38%, 16%);
     display: flex;
     border-radius: 0.5em;
     color: white;
-    max-width: 600px;
+    width: 70%;
 }
 
 .highlitedtext {
