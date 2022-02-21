@@ -20,6 +20,7 @@ body {
     border-radius: 0.5em;
     color: white;
     width: 70%;
+    margin: 0 auto;
 }
 
 .highlitedtext {
@@ -29,6 +30,9 @@ body {
 .inner-card {
     width: 50%;
     padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
 .imagecontainer {
     width: 50%;
@@ -59,25 +63,23 @@ img {
 }
 
 h1 {
-    font-size: 1.2em;
-    margin: 1em 0;
+    font-size: 1.4em;
     color: hsla(0, 0%, 100%, 0.75);
     
 }
 
 p{
-    font-size: 0.6em;
-    margin: 1rem 0;
+    font-size: 0.8em;
 
 }
 
 .footer {
-    margin: 3em 0 0 0 ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 0.5em;
     color : hsla(0, 0%, 100%, 0.6);
+    margin-top: 2rem;
 }
 
 .counter {
