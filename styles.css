@@ -20,6 +20,7 @@ body {
     border-radius: 0.5rem;
     color: white;
     width: 70%;
+    max-width: 36rem;
 }
 
 .highlitedtext {
@@ -31,7 +32,8 @@ body {
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .imagecontainer {
     width: 50%;
